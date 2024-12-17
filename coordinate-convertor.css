@@ -1,0 +1,107 @@
+html,
+body{
+    background-image: url('h.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+#insti-img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#grp-img {
+    float: right;
+    width: 110px;
+    height: 35px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.gui-name {
+    color: rgb(10, 207, 221);
+    text-align: center;
+    font-size: 2em;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.wrapper .container {
+    align-self: center;
+    max-width: 75%;
+}
+
+.wrapper .container .card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(13, 155, 226);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(13, 155, 226);
+    box-shadow: 0px 0px 10px 0px rgb(13, 155, 226);
+}
+
+.wrapper .container .card #convertor {
+    margin: 5px;
+}
+
+.wrapper .container .card #convertor .form-group {
+    color: rgb(247, 239, 239);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.wrapper .container .card #convertor input {
+    margin: 10px;
+    padding: 10px 3px 2px;
+    width: 91.87%;
+    background-color: #1d1c1d;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid rgb(5, 196, 230);
+    height: 15px;    
+}
+
+.coordinate-input {
+    display: flex;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    /* margin-right: 25%; */
+}
+
+.wrapper .container .card #convertor button {
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.wrapper .container .card #convertor button:hover {
+    background-color: #bbb4b4;
+}
+
+.wrapper .container .card #convertor .out {
+    color: rgb(10, 207, 221);
+    margin: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coordinate Convertor</title>
+    <link rel="stylesheet" href="coordinate-convertor.css">
+
+</head>
+
+<body >
+    <div class="institute-logo">
+        <img src="download (3).png" alt="Institute-Logo" id="insti-img" onclick="returnhome()">
+    </div>
+    <div class="logo-img">
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="gui-name">
+                <h1>Coordinate Tranformation </h1>
+            </div>
+            <div class="card">
+                <form name="convertor" id="convertor">
+                    <div class="form-group">
+                        <label for="num"><b><u>Enter Coordinates to Tranform : </u></b></label>
+                    </div>
+                    <div class="coordinate-input">
+                        <input type="text" id="num1" />
+                        <input type="text" id="num2" />
+                        <input type="text" id="num3" />
+                    </div>
+                    <div class="form-group">
+                        <button type="button" onclick="calculate('1')"><b>Cartesian to Cylindrical</b></button>
+                        <b><button type="button" onclick="calculate('2')"><b>Cartesian to Spherical</b></button></b>
+                        <b><button type="button" onclick="calculate('3')"><b>Cylindrical to Cartesian</b></button></b>
+                        <b><br><button type="button" onclick="calculate('4')"><b>Cylindrical to Spherical</b></button></b>
+<b><button type="button" onclick="calculate('5')"><b>Spherical to Cartesian</button></b>
+                        <b><br><button type="button" onclick="calculate('6')"><b>Spherical to Cylindrical</b></button></b>
+                    </div>
+                    <div class="out">
+                        <h2><output name="result"  id="result"></output></h2>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="./js/coordinate.js"></script> -->
+    <script src="coordinate.js"></script>
+    <script>
+        function returnhome(){
+            window.location.href = "index.html";
+        }
+    </script>
+
+</body>
+
+</html>
