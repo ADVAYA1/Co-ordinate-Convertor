@@ -61,11 +61,3 @@ A web-based tool that allows users to convert between different coordinate syste
 4. **Push your changes**: Push your branch to your forked repository.
 5. **Create a pull request**: Once you're done, create a pull request with your changes.
 
-## License
-
-This project is open source and available under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
----
-
-### Notes:
-- You can further personalize the README with additional sections (such as installation instructions) depending on how you deploy the tool (locally or on a web server).
